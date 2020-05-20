@@ -1,0 +1,61 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.products ul {
+
+    color: green;
+    list-style: square;
+    margin: 0px 30px;
+
+
+}
+
+.products h4 {
+    margin-bottom: 10px;
+}
+
+
+.products li {
+    padding: 5px 0px;
+
+
+}
+
+.products ul li a {
+    display: block;
+    width: 150px;
+    text-decoration: none;
+    color: rgb(133, 126, 126);
+    font-size: 16px;
+    border: 0px solid black;
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+.products ul li a:hover {
+
+    color: rgb(29, 23, 50);
+    /* font-size: 14px; */
+    /* transform: translateX(10px); */
+
+}
+
+
+.products ul li a:hover::first-letter {
+    text-transform: uppercase;
+    text-decoration: underline;
+    /* font-weight: bold; */
+
+
+
+
+}
